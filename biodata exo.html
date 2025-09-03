@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website EXO</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      display: flex;
+      min-height: 500px;
+    }
+    aside {
+      width: 25%;
+      background: #e6e6e6;
+      padding: 20px;
+    }
+    aside ul {
+      list-style: none; 
+      padding: 0;
+      margin: 0;
+    }
+    aside ul li {
+      margin-bottom: 15px;  
+    }
+    aside ul li a {
+      text-decoration: none;  
+      color: #333;          
+      font-weight: bold;
+      display: block;        
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    aside ul li a:hover {
+      background: #ccc;      
+      color: #000;
+    }
+    main {
+      flex: 1;
+      background: #fff;
+      padding: 20px;
+    }
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .biodata-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .card {
+      display: flex;
+      align-items: flex-start;
+      background: #fafafa;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 180px;
+      height: 220px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+      text-align: left;
+    }
+    .card-content h3 {
+      margin: 0 0 5px;
+      color: #222;
+    }
+    .card-content p {
+      margin: 3px 0;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>EXO</h1>
+    <p>We Are One, EXO Saranghaja!</p>
+  </header>
+
+  <!-- MAIN MENU -->
+  <nav>
+    <a href="https://exo-jp.net/en/" target="_blank">Website EXO</a>
+  </nav>
+
+  <!-- KONTEN UTAMA -->
+  <div class="container">
+    <!-- SIDEBAR -->
+    <aside>
+      <h2>EXO</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biodata exo.html">Biodata Member</a></li>
+        <li><a href="fandom.html">Fandom</a></li>
+        <li><a href="album.html">Album</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+
+      </ul>
+    </aside>
+
+    <!-- ISI KONTEN -->
+    <main>
+      <h2>Biodata Member EXO</h2>
+      <div class="biodata-list">
+
+        <!-- SUHO -->
+        <div class="card">
+          <img src="suho.jpg" alt="Suho">
+          <div class="card-content">
+            <h3>Suho (Kim Junmyeon)</h3>
+            <p><b>Posisi:</b> Leader, Lead Vocalist</p>
+            <p><b>Tanggal Lahir:</b> 22 Mei 1991</p>
+            <p><b>Tempat Lahir:</b> Seoul, Korea Selatan</p>
+            <p><b>Zodiak:</b> Gemini</p>
+            <p><b>Tinggi:</b> 173 cm</p>
+            <p><b>Golongan Darah:</b> AB</p>
+            <p><b>Hobi:</b> Membaca, bermain golf</p>
+            <p><b>Fakta Menarik:</b> Suho dikenal sebagai leader bijaksana dan perhatian, serta aktif di drama dan film Korea.</p>
+          </div>
+        </div>
+
+        <!-- XIUMIN -->
+        <div class="card">
+          <img src="xiumin.jpg" alt="Xiumin">
+          <div class="card-content">
+            <h3>Xiumin (Kim Minseok)</h3>
+            <p><b>Posisi:</b> Sub Vocalist, Sub Rapper</p>
+            <p><b>Tanggal Lahir:</b> 26 Maret 1990</p>
+            <p><b>Tempat Lahir:</b> Guri, Korea Selatan</p>
+            <p><b>Zodiak:</b> Aries</p>
+            <p><b>Tinggi:</b> 173 cm</p>
+            <p><b>Golongan Darah:</b> B</p>
+            <p><b>Hobi:</b> Sepak bola, mendaki</p>
+            <p><b>Fakta Menarik:</b> Member tertua EXO, dijuluki "Baozi" karena wajahnya imut.</p>
+          </div>
+        </div>
+
+        <!-- BAEKHYUN -->
+        <div class="card">
+          <img src="baekhyun.jpg" alt="Baekhyun">
+          <div class="card-content">
+            <h3>Baekhyun (Byun Baekhyun)</h3>
+            <p><b>Posisi:</b> Main Vocalist</p>
+            <p><b>Tanggal Lahir:</b> 6 Mei 1992</p>
+            <p><b>Tempat Lahir:</b> Bucheon, Korea Selatan</p>
+            <p><b>Zodiak:</b> Taurus</p>
+            <p><b>Tinggi:</b> 174 cm</p>
+            <p><b>Golongan Darah:</b> O</p>
+            <p><b>Hobi:</b> Bermain piano, Aikido</p>
+            <p><b>Fakta Menarik:</b> Vokal powerfull dan ceria, juga debut solo dengan sukses besar.</p>
+          </div>
+        </div>
+
+        <!-- CHEN -->
+        <div class="card">
+          <img src="chen.jpg" alt="Chen">
+          <div class="card-content">
+            <h3>Chen (Kim Jongdae)</h3>
+            <p><b>Posisi:</b> Main Vocalist</p>
+            <p><b>Tanggal Lahir:</b> 21 September 1992</p>
+            <p><b>Tempat Lahir:</b> Siheung, Korea Selatan</p>
+            <p><b>Zodiak:</b> Virgo</p>
+            <p><b>Tinggi:</b> 173 cm</p>
+            <p><b>Golongan Darah:</b> B</p>
+            <p><b>Hobi:</b> Menyanyi, menulis lagu</p>
+            <p><b>Fakta Menarik:</b> Dikenal dengan suara tinggi emosional, juga aktif dalam OST drama.</p>
+          </div>
+        </div>
+
+        <!-- CHANYEOL -->
+        <div class="card">
+          <img src="chanyeol.jpg" alt="Chanyeol">
+          <div class="card-content">
+            <h3>Chanyeol (Park Chanyeol)</h3>
+            <p><b>Posisi:</b> Main Rapper, Sub Vocalist</p>
+            <p><b>Tanggal Lahir:</b> 27 November 1992</p>
+            <p><b>Tempat Lahir:</b> Seoul, Korea Selatan</p>
+            <p><b>Zodiak:</b> Sagittarius</p>
+            <p><b>Tinggi:</b> 185 cm</p>
+            <p><b>Golongan Darah:</b> A</p>
+            <p><b>Hobi:</b> Main gitar, drum, komposer</p>
+            <p><b>Fakta Menarik:</b> Rapper energik EXO, jago berbagai instrumen musik.</p>
+          </div>
+        </div>
+
+        <!-- D.O -->
+        <div class="card">
+          <img src="d.o.jpg" alt="D.O">
+          <div class="card-content">
+            <h3>D.O. (Do Kyungsoo)</h3>
+            <p><b>Posisi:</b> Main Vocalist</p>
+            <p><b>Tanggal Lahir:</b> 12 Januari 1993</p>
+            <p><b>Tempat Lahir:</b> Goyang, Korea Selatan</p>
+            <p><b>Zodiak:</b> Capricorn</p>
+            <p><b>Tinggi:</b> 172 cm</p>
+            <p><b>Golongan Darah:</b> A</p>
+            <p><b>Hobi:</b> Menyanyi, memasak</p>
+            <p><b>Fakta Menarik:</b> Dikenal dengan suara lembut, sukses sebagai aktor film/drama.</p>
+          </div>
+        </div>
+
+        <!-- KAI -->
+        <div class="card">
+          <img src="kai.jpg" alt="Kai">
+          <div class="card-content">
+            <h3>Kai (Kim Jongin)</h3>
+            <p><b>Posisi:</b> Main Dancer, Center</p>
+            <p><b>Tanggal Lahir:</b> 14 Januari 1994</p>
+            <p><b>Tempat Lahir:</b> Suncheon, Korea Selatan</p>
+            <p><b>Zodiak:</b> Capricorn</p>
+            <p><b>Tinggi:</b> 182 cm</p>
+            <p><b>Golongan Darah:</b> A</p>
+            <p><b>Hobi:</b> Menari, menonton film</p>
+            <p><b>Fakta Menarik:</b> Ikon dance EXO, wajah resmi brand global Gucci.</p>
+          </div>
+        </div>
+
+        <!-- SEHUN -->
+        <div class="card">
+          <img src="sehun.jpg" alt="Sehun">
+          <div class="card-content">
+            <h3>Sehun (Oh Sehun)</h3>
+            <p><b>Posisi:</b> Lead Dancer, Lead Rapper, Maknae</p>
+            <p><b>Tanggal Lahir:</b> 12 April 1994</p>
+            <p><b>Tempat Lahir:</b> Seoul, Korea Selatan</p>
+            <p><b>Zodiak:</b> Aries</p>
+            <p><b>Tinggi:</b> 183 cm</p>
+            <p><b>Golongan Darah:</b> O</p>
+            <p><b>Hobi:</b> Menari, akting</p>
+            <p><b>Fakta Menarik:</b> Visual EXO, sering tampil di drama dan film.</p>
+          </div>
+        </div>
+
+        <!-- LAY -->
+        <div class="card">
+          <img src="lay.jpg" alt="Lay">
+          <div class="card-content">
+            <h3>Lay (Zhang Yixing)</h3>
+            <p><b>Posisi:</b> Main Dancer, Vocalist</p>
+            <p><b>Tanggal Lahir:</b> 7 Oktober 1991</p>
+            <p><b>Tempat Lahir:</b> Changsha, Tiongkok</p>
+            <p><b>Zodiak:</b> Libra</p>
+            <p><b>Tinggi:</b> 177 cm</p>
+            <p><b>Golongan Darah:</b> A</p>
+            <p><b>Hobi:</b> Menulis lagu, menari</p>
+            <p><b>Fakta Menarik:</b> Aktif di Tiongkok, punya karier solo internasional sukses.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <h2 style="margin-top:40px;">Ex-Member EXO</h2>
+      <div class="biodata-list">
+
+        <!-- KRIS -->
+        <div class="card">
+          <img src="kris.jpg" alt="Kris">
+          <div class="card-content">
+            <h3>Kris Wu (Wu Yifan)</h3>
+            <p><b>Posisi:</b> EXO-M Leader, Main Rapper</p>
+            <p><b>Tanggal Lahir:</b> 6 November 1990</p>
+            <p><b>Tempat Lahir:</b> Guangzhou, Tiongkok</p>
+            <p><b>Zodiak:</b> Scorpio</p>
+            <p><b>Tinggi:</b> 187 cm</p>
+            <p><b>Golongan Darah:</b> O</p>
+            <p><b>Fakta Menarik:</b> Eks member EXO-M, sukses sebagai aktor dan penyanyi solo di Tiongkok.</p>
+          </div>
+        </div>
+
+        <!-- LUHAN -->
+        <div class="card">
+          <img src="luhan.jpg" alt="Luhan">
+          <div class="card-content">
+            <h3>Luhan</h3>
+            <p><b>Posisi:</b> Lead Vocalist, Lead Dancer, Visual</p>
+            <p><b>Tanggal Lahir:</b> 20 April 1990</p>
+            <p><b>Tempat Lahir:</b> Beijing, Tiongkok</p>
+            <p><b>Zodiak:</b> Taurus</p>
+            <p><b>Tinggi:</b> 178 cm</p>
+            <p><b>Golongan Darah:</b> O</p>
+            <p><b>Fakta Menarik:</b> Visual EXO-M, kini sukses sebagai aktor dan penyanyi solo di Tiongkok.</p>
+          </div>
+        </div>
+
+        <!-- TAO -->
+        <div class="card">
+          <img src="tao.jpg" alt="Tao">
+          <div class="card-content">
+            <h3>Tao (Huang Zitao)</h3>
+            <p><b>Posisi:</b> Lead Rapper, Vocalist</p>
+            <p><b>Tanggal Lahir:</b> 2 Mei 1993</p>
+            <p><b>Tempat Lahir:</b> Qingdao, Tiongkok</p>
+            <p><b>Zodiak:</b> Taurus</p>
+            <p><b>Tinggi:</b> 183 cm</p>
+            <p><b>Golongan Darah:</b> AB</p>
+            <p><b>Fakta Menarik:</b> Ahli seni bela diri Wushu, kini berkarier sebagai penyanyi dan aktor di Tiongkok.</p>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Website EXO | Dibuat oleh Agnes</p>
+  </footer>
+
+</body>
+</html>
